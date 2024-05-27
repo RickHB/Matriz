@@ -276,5 +276,3 @@ C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\refint\M
 C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\Metricos.pdb
 C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\Metricos.genruntimeconfig.cache
 C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\ref\Metricos.dll
-C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\Metricos.RazorAssemblyInfo.cache
-C:\Users\rical\OneDrive\Desktop\PruebaDaimler\Metricos\obj\Debug\net6.0\Metricos.RazorAssemblyInfo.cs

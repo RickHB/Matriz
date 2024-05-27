@@ -17,6 +17,8 @@ namespace Metricos.DTO
         public DateTime DATE_CREATED { get; set; }
 
         [Required]
+        public DateTime DATE_MAXIMUM { get; set; }
+        [Required]
         public string TYPE_COURSE { get; set; }
 
     }

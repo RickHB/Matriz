@@ -9,6 +9,7 @@ namespace Metricos.Context
         public DbSet<Course> Course { get; set; }
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Details_Course> Details_Course { get; set; }
+        public DbSet<Phases_Course> Phases_Course { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

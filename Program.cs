@@ -1,4 +1,5 @@
 using Metricos.Context;
+using Metricos.Controllers;
 using Metricos.IRepository;
 using Metricos.Repository;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +18,9 @@ var connectionString = Environment.GetEnvironmentVariable("ConexionSQL");
 builder.Services.AddDbContext<SqlDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddScoped<ICourseRepository, CourserRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IPhases_CourseRepository, Phases_CourseRepository>();
+builder.Services.AddScoped<IAsignarRepository, AsignarRepository>();
 
 var app = builder.Build();
 

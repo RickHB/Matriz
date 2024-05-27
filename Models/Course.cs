@@ -12,6 +12,7 @@ namespace Metricos.Models
         public DateTime DATE_CREATED { get; set; }
         public string CREATED_BY { get; set; }
         public string TYPE_COURSE { get; set; }
+        public DateTime DATE_MAXIMUM { get; set; }
 
         public bool ACTIVE { get; set; }
 
